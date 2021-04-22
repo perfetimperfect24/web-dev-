@@ -1,0 +1,19 @@
+h1{
+	color: rgba(11,99,150,1);
+	/*border-color:purple;
+	border-width:5px;
+	border-style:solid;*/
+	border: 8px dashed rgb(255,100,80);
+}
+/*width
+color
+style*/
+h4{
+	background: rgb(255,100,80);
+}
+body{
+	background: pink;
+	/*background: url(https://www.rvinyl.com/Shared/Images/Product/Rcraft-trade-Wood-Grain-Vinyl-Craft-Film-Oak-Red/Red-Oak-Wood-Grain-Vinyl-Wrap-Film.jpg);*/
+	/*background-repeat:no-repeat;*/
+	/*background-size: cover;*/
+}

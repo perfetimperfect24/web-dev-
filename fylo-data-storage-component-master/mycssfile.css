@@ -1,0 +1,135 @@
+.container{
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-color:hsl(229, 57%, 11%);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .background-image{
+    position: absolute;
+    background-image: url(images/bg-desktop.png);
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+    background-color:hsl(229, 57%, 11%);
+}
+.uni{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    align-items: flex-end;
+}
+#logo{
+    background-color: hsl(228, 56%, 26%);
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    margin-right: 30px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.special{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+
+}
+.allbtn{
+    padding-left: 40px;
+}
+.btn-sm{
+    background-color: hsl(229, 57%, 11%);
+    border-radius:20%;
+    padding: 5px;
+    margin-right: 10px;
+    border:0.2px solid hsl(229, 57%, 11%);
+}
+.info{
+    background-color: hsl(228, 56%, 26%);
+    display: inline-block;
+    height: 200px;
+    width: 700px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.info{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-right:30px;
+}
+.bold{
+    font-weight: 400;
+}
+
+/* Speaking bubble */
+.left {
+	position: relative;
+	background: white;
+    color: black;
+	border-radius: .4em;
+    display: inline-block;
+    z-index: 1;
+    transform: translate(-190px, -180px);
+    width: 170px;
+    height: 75px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.left:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border: 25px solid white;
+	border-bottom-color: transparent;
+	border-top: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -16px;
+}
+
+.add-info{
+    color: hsl(229, 7%, 55%);
+    font-size: 11px;
+}
+
+.progress-bar{
+    background:linear-gradient(to right,hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius:20px;
+}
+.progress{
+    border-radius:20px;
+    padding:1.2px;
+    background-color:hsl(229, 57%, 11%);
+    border:1px solid hsl(229, 57%, 11%);
+}
+.min-max{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   margin-top:2%;
+}
+.circle{
+    z-index:1;
+    transform: translateX(-81.5px);
+    color:radial-gradient(rgba(255, 254, 254, 0.856),white);
+}
+
